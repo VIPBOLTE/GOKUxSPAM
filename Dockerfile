@@ -10,5 +10,5 @@ RUN pip3 install -r requirements.txt
 COPY mogenius.sh mogenius.sh
 COPY webapp.py webapp.py
 EXPOSE 5000
-RUN chmod 777 /hell/mogenius.sh
+RUN chmod 777 /GOKU/mogenius.sh
 ENTRYPOINT ["./mogenius.sh"]

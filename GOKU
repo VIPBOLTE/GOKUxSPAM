@@ -49,7 +49,7 @@ edit_config() {
     echo "Enter correct values one by one..."
     echo -n "APP_ID: "; read api_id
     echo -n "API_HASH: "; read api_hash
-    echo -n "HELLBOT_SESSION: "; read session
+    echo -n "GOKUxSPAM_SESSION: "; read session
     echo -n "BOT_TOKEN: "; read bot_token
     echo -n "DATABASE_URL: "; read db_uri
     echo "Adding these values to config file..."
@@ -59,7 +59,7 @@ from HellConfig.config import Config
 class Development(Config):
     APP_ID = int($api_id)
     API_HASH = '$api_hash'
-    HELLBOT_SESSION = '$session'
+    GOKUxSPAM_SESSION = '$session'
     BOT_TOKEN = '$bot_token'
     DATABASE_URL = '$db_uri'
     """ > config.py

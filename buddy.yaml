@@ -1,4 +1,4 @@
-- pipeline: "Hell"
+- pipeline: "GOKU"
   on: "EVENT"
   events:
   - type: "PUSH"
@@ -7,7 +7,7 @@
   priority: "NORMAL"
   fail_on_prepare_env_warning: true
   actions:
-  - action: "Execute python3 -m TelethonHell"
+  - action: "Execute python3 -m GOKUxSPAM"
     type: "BUILD"
     main_service_name: "Main"
     docker_image_name: "library/python"
@@ -15,7 +15,7 @@
     execute_commands:
     - "python -m pip install --upgrade pip"
     - "pip install -r requirements.txt"
-    - "python3 -m TelethonHell"
+    - "python3 -m GOKUxSPAM"
     cached_dirs:
     - "/root/.cache/pip"
     volume_mappings:
@@ -32,7 +32,7 @@
     - key: "BOT_TOKEN"
       type: "VAR"
       encrypted: true
-    - key: "HELLBOT_SESSION"
+    - key: "GOKUxSPAM_SESSION"
       type: "VAR"
       encrypted: true
     - key: "DATABASE_URL"

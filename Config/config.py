@@ -18,7 +18,7 @@ class Config(object):
     G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
     G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", None)
     GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", None)
-    GIT_REPO_NAME = os.environ.get("GIT_REPO", "SHIVANSH474/SHUKLA-PULGINS")
+    GIT_REPO_NAME = os.environ.get("GIT_REPO", "VIPBOLTE/GOKUxSPAM")
     GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
     HANDLER = os.environ.get("HANDLER", ".")
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
@@ -35,7 +35,7 @@ class Config(object):
     PM_LOGGER = int(os.environ.get("PM_LOGGER", 0))
     PM_PERMIT = os.environ.get("PM_PERMIT", "True")
     REMOVE_BG_API = os.environ.get("REMOVE_BG_API", None)
-    GOKUxSPAM_SESSION = os.environ.get("HELLBOT_SESSION", None)
+    GOKUxSPAM_SESSION = os.environ.get("GOKUxSPAM_SESSION", None)
     SESSION_2 = os.environ.get("SESSION_2", None)
     SESSION_3 = os.environ.get("SESSION_3", None)
     SESSION_4 = os.environ.get("SESSION_4", None)
@@ -43,7 +43,7 @@ class Config(object):
     SHORTENER_API = os.environ.get("SHORTENER_API", None)
     SUDO_HANDLER = os.environ.get("SUDO_HANDLER", ".")
     TAG_LOGGER = int(os.environ.get("TAG_LOGGER", 0))
-    THUMB_IMG = os.environ.get("THUMB_IMG", "./HellConfig/resources/pics/hellbot_logo.jpg")
+    THUMB_IMG = os.environ.get("THUMB_IMG", "./Config/resources/pics/hellbot_logo.jpg")
     UNLOAD = list(os.environ.get("UNLOAD", "").split())
     UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/SHIVANSH474/SHUKLA-USERBOT")
     UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "master")
@@ -56,7 +56,7 @@ class Config(object):
     GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", "/app/.apt/usr/bin/google-chrome")
     MAX_MESSAGE_SIZE_LIMIT = 4095
     SUDO_USERS = [6762113050, 6919199044]
-    TELEGRAPH_NAME = os.environ.get("TELEGRAPH_NAME", "[ †he Hêllẞø† ]")
+    TELEGRAPH_NAME = os.environ.get("TELEGRAPH_NAME", "[ †he gokubot ]")
     TEMP_DIR = os.environ.get("TEMP_DIR", None)
     TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
     
